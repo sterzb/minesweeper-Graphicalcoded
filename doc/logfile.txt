@@ -1,0 +1,65 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files (x86)\BlueJ\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+C:\Program Files (x86)\BlueJ\lib\bluejcore.jar;C:\Program Files (x86)\BlueJ\lib\junit-4.8.2.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-core.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-device.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-gpio-extension.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-service.jar;G:\Fall2015\CSCI 221\StartAgain\GameMain
+-d
+G:\Fall2015\CSCI 221\StartAgain\GameMain\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+C:\Program Files (x86)\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+G:\Fall2015\CSCI 221\StartAgain\GameMain\DialogDemo.java
+<---- end of javadoc command ---->
+Loading source file G:\Fall2015\CSCI 221\StartAgain\GameMain\DialogDemo.java...
+Constructing Javadoc information...
+G:\Fall2015\CSCI 221\StartAgain\GameMain\DialogDemo.java:65: error: cannot find symbol
+    CustomDialog customDialog;
+    ^
+  symbol:   class CustomDialog
+  location: class DialogDemo
+Standard Doclet version 1.8.0_40
+Building tree for all the packages and classes...
+Generating G:\Fall2015\CSCI 221\StartAgain\GameMain\doc\DialogDemo.html...
+Generating G:\Fall2015\CSCI 221\StartAgain\GameMain\doc\package-frame.html...
+Generating G:\Fall2015\CSCI 221\StartAgain\GameMain\doc\package-summary.html...
+Generating G:\Fall2015\CSCI 221\StartAgain\GameMain\doc\constant-values.html...
+Generating G:\Fall2015\CSCI 221\StartAgain\GameMain\doc\serialized-form.html...
+G:\Fall2015\CSCI 221\StartAgain\GameMain\tile.java:25: error: <identifier> expected
+    mineMax = JOptionPane.showInputDialog(
+           ^
+G:\Fall2015\CSCI 221\StartAgain\GameMain\tile.java:34: error: <identifier> expected
+    mineMax = reader.nextInt();
+           ^
+G:\Fall2015\CSCI 221\StartAgain\GameMain\tile.java:25: error: cannot find symbol
+    mineMax = JOptionPane.showInputDialog(
+    ^
+  symbol:   class mineMax
+  location: class tile
+G:\Fall2015\CSCI 221\StartAgain\GameMain\tile.java:34: error: cannot find symbol
+    mineMax = reader.nextInt();
+    ^
+  symbol:   class mineMax
+  location: class tile
+Building index for all the packages and classes...
+Building index for all classes...
+Generating G:\Fall2015\CSCI 221\StartAgain\GameMain\doc\allclasses-frame.html...
+Generating G:\Fall2015\CSCI 221\StartAgain\GameMain\doc\allclasses-noframe.html...
+Generating G:\Fall2015\CSCI 221\StartAgain\GameMain\doc\index.html...
+Generating G:\Fall2015\CSCI 221\StartAgain\GameMain\doc\stylesheet.css...
+4 errors
+1 warning
